@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste de tâches</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Liste de tâches</h1>
+      <form id="add-task-form">
+        <input
+          type="text"
+          id="new-task"
+          placeholder="Ajouter une nouvelle tâche..."
+        />
+        <button type="submit" class="bouton_add">Ajouter</button>
+      </form>
+      <ul id="task-list">
+        <li>
+          <span
+            >Ajouter un écouteur d'événements sur le bouton "Ajouter" pour
+            détecter lorsque l'utilisateur soumet un nouveau formulaire de
+            tâche</span
+          >
+          <input type="checkbox" id="maCheckbox" />
+        </li>
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
