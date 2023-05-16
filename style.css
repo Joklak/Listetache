@@ -70,6 +70,9 @@ li:last-child {
 .completed {
   background-color: red;
 }
+.important {
+  background-color: blue;
+}
 
 li input[type="checkbox"] {
   margin-top: 4px;
@@ -83,4 +86,8 @@ li input[type="checkbox"] {
 
 .task-completed {
   text-decoration: line-through;
+}
+
+span {
+  width: 300px;
 }
