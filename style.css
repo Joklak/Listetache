@@ -5,12 +5,17 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .container {
-  max-width: 800px;
+  width: 60%;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
@@ -68,14 +73,13 @@ li:last-child {
 }
 
 .completed {
-  background-color: red;
+  font-style: italic;
 }
-.important {
-  background-color: blue;
+.important .fa-star {
+  color: #4caf50;
 }
 
 li input[type="checkbox"] {
-  margin-top: 4px;
   margin-left: 10px;
 }
 .task-title {
@@ -89,5 +93,16 @@ li input[type="checkbox"] {
 }
 
 span {
-  width: 300px;
+  width: 500px;
+}
+.important-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.supprimer-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: grey;
 }
